@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_2"
+    tools:context=".MainActivity"
+   >
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:background="@drawable/border_image"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/atomic_picture_for_android_assignemtn_1"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/enter_an_element_s_symbol"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i1"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/h" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i2"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/he" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i3"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/li" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i4"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/be" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i5"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/b" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i6"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/c" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i7"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/n" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i8"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/o" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i9"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/f" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i10"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ne" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i11"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/na" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i12"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/mg" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i13"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/al" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i14"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/si" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i15"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/p" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i16"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/s" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i17"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/cl" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i18"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ar" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i19"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/k" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i20"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ca" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i21"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/sc" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i22"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ti" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i23"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/v" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i24"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/cr" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i25"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/mn" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i26"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/fe" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i27"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/co" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i28"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ni" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i29"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/cu" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i30"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/zn" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i31"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ga" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i32"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ge" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i33"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/as" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i34"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/se" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i35"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/br" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i36"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/kr" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i37"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/rb" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i38"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/sr" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i39"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/y" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i40"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/zr" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i41"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/nb" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i42"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/mo" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i43"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/tc" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i44"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ru" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i45"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/rh" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i46"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/pd" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i47"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ag" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i48"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/cd" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i49"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/in" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i50"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/sn" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i51"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/sb" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i52"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/te" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i53"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/i" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i54"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/xe" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i55"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/cs" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i56"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ba" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i57"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/la" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i58"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ce" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i59"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/pr" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i60"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/nd" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i61"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/pm" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i62"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/sm" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i63"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/eu" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i64"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/gd" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i65"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/tb" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i66"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/dy" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i67"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ho" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i68"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/er" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i69"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/tm" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i70"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/yb" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i71"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/lu" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i72"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/hf" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i73"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ta" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i74"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/w" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i75"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/re" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i76"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/os" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i77"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ir" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i78"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/pt" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i79"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/au" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i80"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/hg" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i81"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/tl" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i82"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/pb" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i83"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/bi" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i84"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/po" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i85"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/at" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i86"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/rn" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i87"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/fr" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i88"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ra" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i89"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ac" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i90"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/th" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i91"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/pa" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i92"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/u" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i93"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/np" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i94"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/pu" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i95"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/am" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i96"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/cm" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i97"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/bk" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i98"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/cf" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i99"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/es" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i100"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/fm" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i101"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/md" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i102"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/no" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i103"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/lr" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i104"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/rf" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i105"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/db" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i106"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/sg" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i107"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/bh" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i108"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/hs" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i109"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/mt" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i110"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/ds" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i111"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/rg" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i112"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/uub" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i113"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/nh" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/i114"
+                    style="@style/Floating_Button_Sizes"
+                    app:cornerRadius="200dp"
+                    android:text="@string/uuq" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:id="@+id/elementInfo"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/txtElement"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textColor="#E9F8FA"
+            android:textSize="55dp"
+
+            android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtElementInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="#1CA9CD"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+</LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
